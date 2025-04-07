@@ -197,7 +197,7 @@ a:active {
   text-align: center;
 }
 
-footer .card h3 {
+footer > .card h3 {
   font-size: 2em;
   font-weight: 750;
 }
@@ -213,36 +213,36 @@ footer {
   justify-content: space-between;
 }
 
-footer .left {
+footer > .left {
   width: 50%;
   padding-left: 3em;
 }
 
-footer .left > img {
+footer > .left > img {
   width: 20em;
   position: absolute;
   top: -14em;
 }
 
-footer .left p,
-footer .right p {
+footer > .left p,
+footer > .right p {
   width: 30em;
   padding-bottom: 2em;
   font-size: 1.3em;
 }
 
-footer .left h4,
-footer .right h4 {
+footer > .left h4,
+footer > .right h4 {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 1.1em;
 }
 
-footer .left a:hover {
+footer > .left a:hover {
   text-decoration: underline;
 }
 
-footer .right p {
+footer > .right p {
   padding: 0;
   align-self: center;
 }
