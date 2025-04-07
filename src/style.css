@@ -205,3 +205,64 @@ a:active {
 .card p {
   font-size: 1.1em;
 }
+
+footer {
+  background-color: var(--accent-background2);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  padding-left: 3em;
+}
+
+.left > img {
+  width: 20em;
+  position: absolute;
+  top: -14em;
+}
+
+.left p,
+.right p {
+  width: 30em;
+  padding-bottom: 2em;
+  font-size: 1.3em;
+}
+
+.left h4,
+.right h4 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1.1em;
+}
+
+.left a:hover {
+  text-decoration: underline;
+}
+
+.right p {
+  padding: 0;
+  align-self: center;
+}
+
+.right div {
+  display: flex;
+  gap: 1.1em;
+  margin-bottom: 2em;
+}
+
+.right i {
+  font-size: 1.5em;
+  background-color: var(--primary-background);
+  padding: 0.4em;
+  border-radius: 1em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accent-background2);
+  padding: 3em;
+}
